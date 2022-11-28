@@ -43,6 +43,5 @@ runs:
         echo "PublicKey = ${{ inputs.peer_public_key }}" >> tunnel.conf
         echo "AllowedIPs = ${{ inputs.peer_allowed_ips }}" >> tunnel.conf
         echo "Endpoint = ${{ inputs.peer_endpoint }}" >> tunnel.conf
-        cat tunnel.conf
         sudo cp tunnel.conf /etc/wireguard/
         wg-quick up tunnel
