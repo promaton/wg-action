@@ -1,6 +1,6 @@
 # wg-action
 
-WireGuard GitHub Action to access our internal registries from GitHub actions.
+WireGuard GitHub Action to access a remote cluster from GitHub actions.
 
 ## Setup
 
